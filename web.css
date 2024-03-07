@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Image Section Styles */
+.img {
+    height: 400px; /* Adjust as needed */
+    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: cover;
+}
+
+/* Center Section Styles */
+.center {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.sub_title {
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.btns button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btns button:hover {
+    background-color: #555;
+}
